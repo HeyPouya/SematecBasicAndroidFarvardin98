@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SematecBasicAndroidFarvardin98</string>
+    <string name="please_enter_your_age">Please enter your age</string>
+    <string name="ok">Ok</string>
+    <string name="salam_chetory">Salam chetory?</string>\
+    <string name="salam">Salam %1s</string>
+    <string name="go_to_main_activity">Go to main activity</string>
+    <string name="please_enter_your_name">please enter your name</string>
+    <string name="show_website">show website</string>
 </resources>
