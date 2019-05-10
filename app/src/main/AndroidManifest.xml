@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sematech.android.basic.farvardin98">
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,19 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestSharedPrefrenceActivity">
+        <activity android:name=".TestHawkActivity"></activity>
+        <activity android:name=".TestVideoView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".TestImplicitIntentActivity">
-        </activity>
+        <activity android:name=".TestHTMLActivity" />
+        <activity android:name=".TestRecyclerActivity" />
+        <activity android:name=".TestDrawerActivity" />
+        <activity android:name=".TestSharedPrefrenceActivity" />
+        <activity android:name=".TestImplicitIntentActivity" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".TestActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
