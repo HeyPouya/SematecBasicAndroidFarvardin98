@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="always"
+        android:id="@+id/first_item"
+        android:title="First item" />
+    <item
+        android:id="@+id/second_item"
+        android:title="Second item" />
+
+    <item
+        android:id="@+id/third_item"
+        android:title="Third item" />
+</menu>
