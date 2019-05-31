@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestCustomViewActivity">
+        <activity android:name=".TestViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -21,8 +21,12 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".TestServiceActivity"></activity>
-        <activity android:name=".TestWebViewActivity"></activity>
+        <activity android:name=".TestFragmentActivity">
+        </activity>
+        <activity android:name=".TestNotificationActivity"></activity>
+        <activity android:name=".TestCustomViewActivity" />
+        <activity android:name=".TestServiceActivity" />
+        <activity android:name=".TestWebViewActivity" />
         <activity
             android:name=".TestDialogActivity"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
